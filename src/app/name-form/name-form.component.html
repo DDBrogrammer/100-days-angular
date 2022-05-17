@@ -1,0 +1,8 @@
+<form #nameForm="ngForm">
+  <input
+    type="text" class="form-control"
+    required
+    [(ngModel)]="model.name" name="name"
+    #name="ngModel">
+  <button>Submit</button>
+</form>

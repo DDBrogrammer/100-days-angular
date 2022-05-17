@@ -1,0 +1,5 @@
+<app-author-detail
+  *ngFor="let author of authors"
+  [author]="author"
+  (deleteAuthor)="handleDelete($event)">
+></app-author-detail>
